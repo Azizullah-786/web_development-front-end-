@@ -60,6 +60,17 @@ Black
 
 
 
-===============================
-3. Organise flies into folders
+========================================
+3. Organise and rename files and folders
+========================================
+
+3.1. add sub-folders to the root directory (_adds, _images, _javascripts, _styles).
+
+3.2. change names from temp_v2 to temp (temp.html, temp.js, temp.css).
+
+3.3. place temp.html file in the root and place temp.js in _javascripts sub-folder and place temp.css in _styles sub-folder.
+
+3.4. edit temp.html file to match root files links to sub-folders.
+
+3.5. edit temp.html to become a RAS Interpreting & Teaching Center template copyright.
 ===============================
