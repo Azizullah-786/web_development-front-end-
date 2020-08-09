@@ -4,6 +4,7 @@
 **	Front-End Web Development
 *******************
 
+
 ==============================================================================
 1. Star with temp folder that includes (temp_v1.html, temp_v1.css, temp_v1.js)
 ==============================================================================
@@ -73,4 +74,23 @@ Black
 3.4. edit temp.html file to match root files links to sub-folders.
 
 3.5. edit temp.html to become a RAS Interpreting & Teaching Center template copyright.
-===============================
+
+ 
+
+=============================
+4. Add elements to index page
+=============================
+
+4.1. rename temp.html to index.html
+
+4.2. added canvas into the header tag as the website logo
+
+4.3. added login button into the header tag to enable user login
+
+4.4. added socail network into the footer tag
+
+4.5. added four promotions & avertisements into the aside tag
+
+4.6. added two new folder to the main directory (_php, _pages)
+
+4.7. added link to the navigation bar.
