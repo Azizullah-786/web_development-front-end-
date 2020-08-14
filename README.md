@@ -94,4 +94,13 @@ Black
 6. Colour scheme and more organise
 ==================================
 	6.1. added colour to the index page
-	6.2. change some of css properties to reorganise the home page.
+	6.2. added more css scripts and change some of css properties to reorganise the home page.
+	
+
+
+==================
+7. Add other pages
+==================
+	7.1. used index.html as a templete to great other pages (AboutUs, ContactUs, Courses, LegalTerms)
+	7.2. added external JavaScript to myscript.js linked to LegalTerms.html page to perform change in fornt colour and size
+	7.3. added JSON script to Courses.html head tag and connected to some courses.

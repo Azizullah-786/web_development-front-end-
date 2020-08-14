@@ -2,7 +2,7 @@
 <!-- Author is Azizullah Habib in 2019-2020 -->
 <html lang="en">
 	<head>
-		<title>RAS Teaching & Interpreting Center</title>
+		<title>RAS Contact Us</title>
 		
 		<meta charset="UTF-8">
 		<meta name="description" content="RAS Teaching & Interpreting Center">
@@ -10,9 +10,9 @@
 		<meta name="author" content="Azizullah Habib">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<link rel="stylesheet" type="text/css" href="_styles/mystyle.css">
-		<link rel="stylesheet" type="text/css" href="_styles/login.css">
-		<link rel="stylesheet" type="text/css" href="_styles/adds.css">
+		<link rel="stylesheet" type="text/css" href="../_styles/mystyle.css">
+		<link rel="stylesheet" type="text/css" href="../_styles/login.css">
+		<link rel="stylesheet" type="text/css" href="../_styles/adds.css">
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		
@@ -57,10 +57,9 @@
 			}
 		</style>
 		
-		<script type="text/javascript" src="_javascripts/myscript.js"></script>
-		<script>
-			alert("Welcome to RAS Teaching & Interpreting Center 'Home page'")
-		</script>
+		<script type="text/javascript" src="../_javascripts/myscript.js"></script>
+		
+		<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
 		
 	</head>
 	
@@ -92,10 +91,10 @@
 
 				<div id="_login" class="modal">
 				  
-					<form class="modal-content animate" action="_php/login.php">
+					<form class="modal-content animate" action="../_php/login.php">
 						<div class="imgcontainer">
 							<span onclick="document.getElementById('_login').style.display='none'" class="close" title="Close Modal">&times;</span>
-							<img src="_images/avata_image.png" alt="Avatar" class="avatar">
+							<img src="../_images/avata_image.png" alt="Avatar" class="avatar">
 						</div>
 
 						<div class="container">
@@ -137,11 +136,11 @@
 		<section>
 			<nav>
 				<ul>
-					<li><a class="active" href="index.html">Home</a></li>
-					<li><a href="_pages/AboutUs.html">About Us</a></li>
-					<li><a href="_pages/ContactUs.html">Contact Us</a></li>
-					<li><a href="_pages/courses.html">Courses</a></li>
-					<li><a href="_pages/LegalTerms.html">Legal Terms</a></li>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../_pages/AboutUs.html">About Us</a></li>
+					<li><a class="active" href="../_pages/ContactUs.html">Contact Us</a></li>
+					<li><a href="../_pages/courses.html">Courses</a></li>
+					<li><a href="../_pages/LegalTerms.html">Legal Terms</a></li>
 					<br>
 					<br>
 					<br>
@@ -149,32 +148,21 @@
 				</ul>
 			</nav>
 		  
-			<article>
+			<map>
 				<div>
-					<img src="_images/teaching.jpg">
+					<h1>Address</h1>
 					<p>
-						In education, teaching is the concerted sharing of knowledge and experience,
-						which is usually organized within a discipline and, more generally,
-						the provision of stimulus to the psychological and intellectual growth of a person by another person or artifact.
+						The Vineyard<br>
+						298 Reservoir Road<br>
+						Erdington<br>
+						Contact Number: 0121 350 1009
 					</p>
 				</div>
+
 				<div>
-					<img src="_images/book.jpg">
-					<p>
-						Translating and Teaching is a leading content creation and translation company, 
-						with a free machine translation service for basic-level translations. 
-						We are currently undertaking development work on our free translation tool, 
-						and hope to be back in action shortly. However in the meantime, select an option below to find out more
-						about our professional and enterprise-grade translation services
-					</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.626540116674!2d-1.8486966341924402!3d52.5220973798146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870a4cdef9962b3%3A0x8a5fcee05de641f0!2sErdington%2C%20Birmingham%20B23%206FJ!5e0!3m2!1sen!2suk!4v1597362134250!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</div>
-				<div>
-					<img src="_images/pashtoimage.jpg">
-				</div>
-				<div>
-					<iframe src="https://www.youtube.com/embed/GWfxmkJNqdQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="  width: 100%; height: auto;" ></iframe>
-				</div>
-			</article>
+			</map>
 			
 			<aside>
 				<h4 style="text-align: center;" >Promotions & Avertisements</h4>
@@ -183,7 +171,7 @@
 
 					<div class="mySlides fade">
 						<div class="numbertext">1 / 4</div>
-						<img src="_images/ms_courses.jpg">
+						<img src="../_images/ms_courses.jpg">
 						<br>
 						<p>In this new connected world, we believe technology creates opportunity, and our edX courses are designed to provide you with the core development skills needed to be successful in the cloud-first, mobile-first world. </p>
 						<div class="text"><a href="https://www.edx.org/school/microsoft" target="_blank" >Microsoft Courses</a></div>
@@ -192,7 +180,7 @@
 
 					<div class="mySlides fade">
 						<div class="numbertext">2 / 4</div>
-						<img src="_images/translation.png">
+						<img src="../_images/translation.png">
 						<br>
 						<p>Explore what it means to communicate in multiple languages in a variety of contexts, and discover your inner translator.</p>
 						<div class="text"><a href="https://www.futurelearn.com/courses/working-with-translation" target="_blank" >Translation</a></div>
@@ -201,7 +189,7 @@
 
 					<div class="mySlides fade">
 						<div class="numbertext">3 / 4</div>
-						<img src="_images/e-learning.jpg">
+						<img src="../_images/e-learning.jpg">
 						<br>
 						<p>Our eLearning courses are jam-packed with features. Learners control their Speed, Language, Theme and Media. 
 						Bookmarking means never losing their place. 
@@ -212,7 +200,7 @@
 					
 					<div class="mySlides fade">
 						<div class="numbertext">4 / 4</div>
-						<img src="_images/legal_trans.jpg">
+						<img src="../_images/legal_trans.jpg">
 						<br>
 						<p>As pioneers in the industry, we are the first British translation company independently certified to ISO 17100:2015, the latest standard of “Requirements for Translation Services”.</p>
 						<div class="text"><a href="https://www.absolutetranslations.com/" target="_blank" >Legal Translation</a></div>
