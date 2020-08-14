@@ -4,7 +4,6 @@
 **	Front-End Web Development
 *******************
 
-
 ==============================================================================
 1. Star with temp folder that includes (temp_v1.html, temp_v1.css, temp_v1.js)
 ==============================================================================
@@ -12,7 +11,7 @@
 
 <html>
 	<head>
-		<title> ... </tilte>
+		<title> ... </title>
 		<meta>
 		<style> ... </style>
 		<script> ... </script>
@@ -75,8 +74,8 @@ Black
 	4.1. rename temp.html to index.html
 	4.2. added canvas into the header tag as the website logo
 	4.3. added login button into the header tag to enable user login
-	4.4. added socail network into the footer tag
-	4.5. added four promotions & avertisements into the aside tag
+	4.4. added social network into the footer tag
+	4.5. added four promotions & advertisements into the aside tag
 	4.6. added two new folder to the main directory (_php, _pages)
 	4.7. added link to the navigation bar.
 
@@ -87,6 +86,12 @@ Black
 	5.1. added responsive layout - makes the columns/boxes stack on top of each other
 		5.1.1. Extra small devices (phones, 480px and down)
 		5.1.2. All devices (desktops/laptops, portrait tablets and large phones, 480px and up 960px)
-	5.2. added grid to orginase indix page area.
-	5.3. change some of css proparties to reorginase the home page.
+	5.2. added grid to organise index page area.
+	5.3. change some of css properties to reorganise the home page.
 
+
+==================================
+6. Colour scheme and more organise
+==================================
+	6.1. added colour to the index page
+	6.2. change some of css properties to reorganise the home page.
